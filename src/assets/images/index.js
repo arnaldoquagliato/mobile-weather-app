@@ -1,0 +1,1 @@
+export {default as sun} from './sun.png'

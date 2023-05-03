@@ -5,7 +5,8 @@ const SpaceBetween = ({children, style = {}}) => {
   return (
     <View
         style={[{ 
-            flexDirection: "row"
+          flexDirection: "row",
+          justifyContent: "space-between"
         },
         style
       ]} >

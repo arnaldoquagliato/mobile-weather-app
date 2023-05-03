@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-paper/src/components/List/ListAccordion.tsx b/node_modules/react-native-paper/src/components/List/ListAccordion.tsx
+index ab54276..4cb0820 100644
+--- a/node_modules/react-native-paper/src/components/List/ListAccordion.tsx
++++ b/node_modules/react-native-paper/src/components/List/ListAccordion.tsx
+@@ -264,7 +264,7 @@ const ListAccordion = ({
+               ) : (
+                 <MaterialCommunityIcon
+                   name={isExpanded ? 'chevron-up' : 'chevron-down'}
+-                  color={theme.isV3 ? descriptionColor : titleColor}
++                  color={"white"}
+                   size={24}
+                   direction={I18nManager.getConstants().isRTL ? 'rtl' : 'ltr'}
+                 />
