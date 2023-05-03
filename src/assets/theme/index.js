@@ -13,7 +13,7 @@ export const theme = {
   typography: {
     fontSize: 16,
     h1: {
-      fontSize: 24,
+      fontSize: 36,
     },
     h2: {
       fontSize: 20,
